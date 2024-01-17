@@ -14,6 +14,7 @@ function Login() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        width: "auto",
       }}
     >
       <div className={styles.container}>
