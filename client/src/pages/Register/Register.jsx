@@ -17,7 +17,6 @@ function Signup() {
       }}
     >
       <div className={styles.container}>
-        <h1 className={styles.heading}>Sign up Form</h1>
         <div className={styles.form_container}>
           <div className={styles.left}>
             <img

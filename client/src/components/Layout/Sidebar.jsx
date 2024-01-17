@@ -6,7 +6,13 @@ const Sidebar = ({ children }) => {
   return (
     <div className="sidebar-sec">
       <Header />
-      <main style={{ minHeight: "650px" }}>{children}</main>
+      <main
+        style={{
+          minHeight: "650px",
+        }}
+      >
+        {children}
+      </main>
       <Footer />
     </div>
   );
