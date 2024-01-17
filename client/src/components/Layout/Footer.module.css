@@ -1,0 +1,40 @@
+/* Footer.module.css */
+
+.footer {
+  background-color: #ffc801; /* Yellow background color */
+  padding: 20px 0; /* Adjust padding as needed */
+  color: #2c444e; /* Text color for the footer content */
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around; /* Center the sections */
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  flex: 1; /* Equal width for each section */
+}
+
+.links {
+  display: flex;
+  flex-direction: column; /* Stack links vertically */
+  gap: 10px; /* Adjust spacing between links */
+}
+
+a {
+  color: #2c444e; /* Text color for the links */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #000; /* Change color on hover */
+}
+
+.socialLinks {
+  /* Add styles for social media links/icons */
+}

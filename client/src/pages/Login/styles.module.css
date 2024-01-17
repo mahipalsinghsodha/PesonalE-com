@@ -124,3 +124,60 @@
 .google_btn > span {
   margin-left: 10px;
 }
+/* For tablets (768px) */
+@media only screen and (max-width: 768px) {
+  .form_container {
+    width: 90%;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left {
+    display: none; /* Hide the image on smaller screens */
+  }
+
+  .right {
+    flex: 1;
+  }
+
+  .img {
+    display: none; /* Hide the image on smaller screens */
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .google_btn {
+    width: 100%;
+  }
+}
+
+/* For mobile devices (480px) */
+@media only screen and (max-width: 480px) {
+  .heading {
+    font-size: 30px;
+  }
+
+  .heading::after {
+    width: 300px;
+  }
+
+  .form_container {
+    width: 90%;
+    height: auto;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .btn {
+    font-size: 16px;
+  }
+
+  .google_btn {
+    width: 100%;
+    font-size: 14px;
+  }
+}
