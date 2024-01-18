@@ -23,9 +23,11 @@ const Contact = () => {
           <section className="col left">
             <div className="contactTitle">
               <h2>Get In Touch</h2>
+              <p>Welcome to SHAYAR Dairy - Your Source for Pure Desi Ghee!</p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod.
+                Have questions about our premium clarified butter? We're here to
+                help! Reach out to us for any inquiries, feedback, or
+                assistance.
               </p>
             </div>
 
