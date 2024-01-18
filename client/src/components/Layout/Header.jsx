@@ -17,7 +17,7 @@ function Header() {
 
   return (
     <header>
-      <h3>LOGO</h3>
+      <h3>SHAYAR</h3>
       <nav ref={navRef} className={isNavOpen ? "responsive_nav" : ""}>
         <Link to="/" onClick={closeNavbar}>
           Home

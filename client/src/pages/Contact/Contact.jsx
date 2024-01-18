@@ -56,7 +56,7 @@ const Contact = () => {
                 </div>
                 <div className="details">
                   <span>Location</span>
-                  <span>op. Gorv. hospitel, Jaisalmer Road, Khuri</span>
+                  <span>Khuri, Khoohdi, Jaisalmer, Rajasthan 345034</span>
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@ const Contact = () => {
 
               <div className="inputGroup fullWidth">
                 <textarea required="required"></textarea>
-                <label>Say Something</label>
+                <label>Message</label>
               </div>
 
               <div className="inputGroup fullWidth">

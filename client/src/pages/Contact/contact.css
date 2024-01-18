@@ -100,13 +100,17 @@ section.left .socialMedia {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  text-align: center;
   flex-wrap: wrap;
   margin: 22px 0px 20px;
 }
 .socialMedia a {
+  display: flex;
+  align-items: center;
   width: 35px;
   height: 35px;
   text-decoration: none;
+  justify-content: center;
   text-align: center;
   margin-right: 15px;
   border-radius: 5px;
@@ -231,5 +235,19 @@ textarea::-webkit-scrollbar-thumb {
   }
   .iconGroup .details {
     font-size: 12px;
+  }
+}
+@media (max-width: 600px) {
+  .iconGroup {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .iconGroup .icon {
+    margin-right: 0;
+  }
+
+  .iconGroup .details {
+    text-align: center;
   }
 }
