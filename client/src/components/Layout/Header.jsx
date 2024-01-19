@@ -24,7 +24,7 @@ function Header() {
         </Link>
 
         <Link to="/about" onClick={closeNavbar}>
-          About me
+          About Us
         </Link>
         <Link to="/contact" onClick={closeNavbar}>
           Contact
