@@ -1,0 +1,117 @@
+/* Profile.css */
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 20px;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+}
+.profile-image {
+  flex: 1;
+  padding: 20px;
+}
+
+.profile-image img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.profile-form {
+  flex: 3;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group span {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group input[type="file"] {
+  border: none;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+/* Profile.css */
+
+.profile-image {
+  flex: 1;
+  padding: 20px;
+}
+
+.profile-image img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.profile-details {
+  flex: 2;
+  padding: 20px;
+}
+
+.profile-line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile-line label {
+  flex: 1;
+  margin-right: 10px;
+  color: #333;
+}
+
+.profile-line input,
+.profile-line p {
+  flex: 2;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.profile-line input[type="file"] {
+  border: none;
+}
+
+/* ... (remaining styles) ... */

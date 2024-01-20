@@ -1,11 +1,8 @@
 import React from "react";
 import "./About.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faTwitter,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import TwitterIcon from "@mui/icons-material/Twitter";
 
 const About = () => {
   return (
@@ -44,9 +41,9 @@ const About = () => {
       <div className="social-media-section">
         <h2>Connect With Us</h2>
         <div className="social-icons">
-          <FontAwesomeIcon icon={faFacebook} className="social-icon" />
-          <FontAwesomeIcon icon={faTwitter} className="social-icon" />
-          <FontAwesomeIcon icon={faInstagram} className="social-icon" />
+          <InstagramIcon className="social-icon" />
+          <YouTubeIcon className="social-icon" />
+          <TwitterIcon className="social-icon" />
         </div>
       </div>
 

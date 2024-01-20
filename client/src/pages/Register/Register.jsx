@@ -27,6 +27,11 @@ function Signup() {
           </div>
           <div className={styles.right}>
             <h2 className={styles.from_heading}>Create Account</h2>
+            <input
+              type="text"
+              className={styles.input}
+              placeholder=" Full Name"
+            />
             <input type="text" className={styles.input} placeholder="Email" />
             <input
               type="number"

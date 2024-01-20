@@ -102,7 +102,7 @@ const Contact = () => {
               </div>
 
               <div className="inputGroup fullWidth">
-                <button>Send Message</button>
+                <button type="submit">Send Message</button>
               </div>
             </form>
           </section>
